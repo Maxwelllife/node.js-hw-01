@@ -8,7 +8,7 @@ console.log("contactsPath: ", contactsPath);
 
 async function listContacts() {
   const list = await fs.readFile(contactsPath);
-  // console.log("Step 3 list: ", list);
+
   const contacts = JSON.parse(list);
   return contacts;
 }
@@ -18,7 +18,6 @@ async function getContactById(contactId) {
   const contact = contacts.find(
     (contact) => contact.id === contactId.toString()
   );
-  // console.log("contactId.toString: ", contactId.toString);
   if (contact === -1) {
     return null;
   }
