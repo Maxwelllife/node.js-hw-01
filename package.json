@@ -1,0 +1,27 @@
+{
+  "name": "node.js-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxwelllife/node.js-hw-01.git"
+  },
+  "author": "MAX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxwelllife/node.js-hw-01/issues"
+  },
+  "homepage": "https://github.com/Maxwelllife/node.js-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
