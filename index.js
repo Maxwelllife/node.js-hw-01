@@ -52,12 +52,3 @@ const arr = hideBin(process.argv);
 const { argv } = yargs(arr);
 
 invokeAction(argv);
-
-// id = "11";
-// const newData = {
-//   name: "Adam Kon",
-//   email: "AdamIgogo.elementum@sdui.net",
-//   phone: "(658) 244-2568",
-// };
-// // invokeAction({ action: "get", id });
-// invokeAction({ action: "add", id, data: newData });
